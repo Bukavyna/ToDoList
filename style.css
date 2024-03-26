@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	padding: 30px;
+}
+
+.block {
+	border: 1px slategray solid;
+	margin-bottom: 30px;
+	padding: 10px;
+	box-shadow: 7px 8px 10px 10px saddlebrown;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	letter-spacing: 1px;
+	padding-left: 6px;
+	margin: 0 10px 10px 0;
+}
+
+input:hover {
+	border-color: yellow;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	color: darkorchid;
+	background-color: #EECB5A;
+	font-size: 14px;
+	border: 1px skyblue solid;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: green;
+	color: white;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	letter-spacing: 1px;
+	margin: 5px 0;
+}
+
+.added-tasks {
+	background-color: skyblue;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.ins-edited {
+	color: red;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
